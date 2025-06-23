@@ -79,7 +79,7 @@ This project was completed as part of my internship to learn how to discover ope
 
   - Open_Port_Scan(verbose) – Verbose output with detailed scanning steps.
 
-  - (Optional) capture.pcapng – Packet capture file recorded during scan.
+  - Packets captured.pcapng – Packet capture file recorded during scan.
 
 ---
 
