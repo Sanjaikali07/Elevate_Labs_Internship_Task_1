@@ -51,6 +51,38 @@ This project was completed as part of my internship to learn how to discover ope
    
 ---
 
+## ⚠️ Potential Security Risks from Open Ports
+
+### 1. Host: 10.0.2.2
+
+* **Port 135/tcp (msrpc)**
+
+  * Microsoft RPC service has a history of critical vulnerabilities.
+  * May allow remote code execution if not properly secured or updated.
+  * Often targeted by malware for lateral movement.
+
+* **Port 445/tcp (microsoft-ds)**
+
+  * SMB protocol is a common target for ransomware (e.g., WannaCry).
+  * May expose shared files and authentication credentials.
+  * Vulnerable to brute-force, relay, and man-in-the-middle attacks.
+
+### 2. Host: 10.0.2.3
+
+* **Port 53/tcp (domain)**
+
+  * If misconfigured, DNS service can allow unauthorized zone transfers.
+  * May be leveraged for DNS amplification or cache poisoning attacks.
+  * Can reveal internal network structure to attackers.
+
+### 🔐 General Risks
+
+* Open ports indicate active services that expand the attack surface.
+* Unmonitored or outdated services are highly vulnerable to exploitation.
+* Attackers may use port scanning as the first step to identify weaknesses in the network.
+
+---
+
 ## 📡 Packet Capture with Wireshark
 
   Ran Wireshark for approximately 60 seconds during scanning.
