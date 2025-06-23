@@ -73,11 +73,11 @@ This project was completed as part of my internship to learn how to discover ope
 
 ## 📁 Files Included
 
-  - Port_scan – Result of a basic TCP SYN scan.
+  - Port_scan.txt – Result of a basic TCP SYN scan.
 
-  - Open_Port_Scan – Shows only open ports.
+  - Open_Port_Scan.txt – Shows only open ports.
 
-  - Open_Port_Scan(verbose) – Verbose output with detailed scanning steps.
+  - Open_Port_Scan(verbose).txt – Verbose output with detailed scanning steps.
 
   - Packets captured.pcapng – Packet capture file recorded during scan.
 
