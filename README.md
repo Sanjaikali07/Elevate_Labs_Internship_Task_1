@@ -92,3 +92,11 @@ This project was completed as part of my internship to learn how to discover ope
   - Monitoring and closing unused ports improves network security.
 
   - This exercise helped me understand how port scanning works on both tool and network levels.
+
+---
+
+## 👨‍💻 Author
+
+Sanjai K
+
+Intern @Elevate Labs | Aspiring Penetration Tester
