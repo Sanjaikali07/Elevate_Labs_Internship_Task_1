@@ -55,20 +55,6 @@ This project was completed as part of my internship to learn how to discover ope
 
   Ran Wireshark for approximately 60 seconds during scanning.
 
-  Applied filters such as:
-
-  tcp.flags.syn == 1
-
-  Observed:
-
-  - SYN packets sent to different ports.
-  
-  - SYN-ACK responses for open ports.
-
-  - RST responses for closed ports.
-
-  - Clear visibility of the scanning behavior.
-
 ---
 
 ## 📁 Files Included
