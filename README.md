@@ -115,4 +115,4 @@ This project was completed as part of my internship to learn how to discover ope
 
 Sanjai K
 
-Intern @Elevate Labs | Aspiring Penetration Tester
+Aspiring Penetration Tester
